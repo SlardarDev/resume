@@ -1,0 +1,199 @@
+body {
+    font-family: 'Microsoft YaHei', serif;
+    height: auto;
+}
+
+@font-face {font-family: "iconfont";
+    src: url('../img/iconfont.eot?t=1459266006'); /* IE9*/
+    src: url('../img/iconfont.eot?t=1459266006#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../img/iconfont.woff?t=1459266006') format('woff'), /* chrome, firefox */
+    url('../img/iconfont.ttf?t=1459266006') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../img/iconfont.svg?t=1459266006#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-phone:before { content: "\e652"; }
+.icon-locationfill:before { content: "\e650"; }
+.icon-text:before { content: "\e791"; }
+.icon-time:before { content: "\e65f"; }
+
+.back-ground {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: scroll;
+}
+
+.main-content {
+    width: 910px;
+    min-height: 1480px;
+    #height: auto;
+    margin: 50px auto;
+    background-color: #fff;
+}
+
+.head {
+    width: 100%;
+    height: 215px;
+}
+.name-and-aim {
+    float: left;
+    background-color: rgb(216,227,237);
+    width: 64.4%;
+    height: 100%;
+}
+.personal-info-wrapper {
+    background-color: rgb(63,96,146);
+    width: 35.6%;
+    height: 100%;
+    float: right;
+}
+
+.personal-info {
+    height: 100%;
+    width: 100%;
+}
+
+.face-div {
+    float: left;
+    width: 36%;
+    height: 100%;
+}
+
+.info1 {
+    height: 100%;
+    width: 64%;
+    float: left;
+    color: rgb(62,96,145);
+}
+
+.info1-blank {
+    height: 28%;
+    width: 100%;
+}
+
+.name {
+    height: 45%;
+    width: 100%;
+    font-size: 54px;
+    line-height: 1.8;
+}
+
+.aim {
+    height: 27%;
+    width: 100%;
+    font-size: 18px;
+}
+
+.face-outer {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #fff;
+    position:relative;
+    top: 40px;
+}
+
+.face-inner {
+    height: 140px;
+    width: 140px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    background-size: contain;
+    background-image: url('../img/face.png');
+}
+
+.personal-info-ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+    color: rgb(199,236,205);
+}
+
+.personal-info-ul > li {
+    margin-bottom: 15px;
+}
+
+.content {
+    width: 820px;
+    height: 100%;
+    margin: 45px;
+}
+
+.introduce {
+    float: left;
+    width: 23.3%;
+}
+
+.experience {
+    float: right;
+    width: 76.7%;
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(63, 96, 146);
+}
+
+.experience > div {
+    margin: 0 10px 0 10px;
+}
+
+.introduce-content {
+    border: 3px solid rgb(63, 96, 146);
+    font-size: 24px;
+    color: rgb(62,96,145);
+    padding: 10px 5px;
+    width: 96px;
+}
+
+.timeline > span {
+    color: rgb(62, 96, 145);
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+}
+
+.experience-content {
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+    clear: both;
+    font-size: 18px;
+    #padding-top:10px;
+    color: rgb(78, 78, 78);
+}
+
+.experience-content >ul >li {
+    list-style-type: none;
+    margin-bottom: 5px;
+
+}
+
+.experience-content > ul {
+    padding-left: 0;
+}
+
+.section {
+    clear: both;
+}
+
+.dot {
+    background-image: url("../img/dot.png");
+    background-size: contain;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    margin-bottom: -2px;
+    margin-right: 15px;
+}
